@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>박타미 TAMI PARK - Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-fixed-dim": "#cec5be",
+                        "on-surface": "#1b1c1a",
+                        "background": "#fbf9f6",
+                        "surface-variant": "#e4e2df",
+                        "inverse-surface": "#30312f",
+                        "surface-container-high": "#eae8e5",
+                        "soft-beige": "#EBE7E0",
+                        "outline-variant": "#dbc0c0",
+                        "warm-greige": "#F5F3F0",
+                        "on-tertiary-fixed-variant": "#484742",
+                        "on-secondary-fixed-variant": "#4c4641",
+                        "surface-dim": "#dbdad7",
+                        "primary-fixed": "#ffdad9",
+                        "surface-tint": "#9b4145",
+                        "on-surface-variant": "#554242",
+                        "deep-wine": "#6B1D23",
+                        "error-container": "#ffdad6",
+                        "secondary-container": "#e8ded7",
+                        "charcoal-brown": "#2D2926",
+                        "on-secondary-container": "#68615c",
+                        "surface-bright": "#fbf9f6",
+                        "surface": "#fbf9f6",
+                        "on-tertiary-container": "#a5a29c",
+                        "on-tertiary-fixed": "#1c1c18",
+                        "tertiary": "#24241f",
+                        "primary": "#4d0610",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#3a3934",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed": "#e6e2db",
+                        "dark-taupe": "#4A443F",
+                        "secondary-fixed": "#ebe1da",
+                        "surface-container": "#efeeeb",
+                        "inverse-on-surface": "#f2f0ed",
+                        "primary-container": "#6b1d23",
+                        "inverse-primary": "#ffb3b3",
+                        "on-primary-fixed": "#400009",
+                        "on-secondary-fixed": "#1f1b17",
+                        "on-primary-container": "#f08486",
+                        "tertiary-fixed-dim": "#cac6bf",
+                        "surface-container-highest": "#e4e2df",
+                        "surface-container-low": "#f5f3f0",
+                        "outline": "#887271",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#7d2a2f",
+                        "on-secondary": "#ffffff",
+                        "primary-fixed-dim": "#ffb3b3",
+                        "error": "#ba1a1a",
+                        "on-background": "#1b1c1a",
+                        "on-error-container": "#93000a",
+                        "secondary": "#645d58"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-tablet": "40px",
+                        "gutter": "32px",
+                        "margin-mobile": "24px",
+                        "margin-desktop": "80px",
+                        "section-gap": "160px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Noto Serif KR", "serif"],
+                        "body-lg": ["Source Sans 3", "sans-serif"],
+                        "display-lg-mobile": ["Noto Serif KR", "serif"],
+                        "headline-md": ["Noto Serif KR", "serif"],
+                        "label-caps": ["Source Sans 3", "sans-serif"],
+                        "display-lg": ["Noto Serif KR", "serif"],
+                        "headline-lg-mobile": ["Noto Serif KR", "serif"],
+                        "body-md": ["Source Sans 3", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["40px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "body-lg": ["20px", { "lineHeight": "1.8", "fontWeight": "400" }],
+                        "display-lg-mobile": ["48px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "1.4", "fontWeight": "500" }],
+                        "label-caps": ["12px", { "lineHeight": "1.5", "letterSpacing": "0.1em", "fontWeight": "600" }],
+                        "display-lg": ["84px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: #fbf9f6; /* background */
+            color: #1b1c1a; /* on-background */
+        }
+    </style>
+</head>
+<body class="antialiased bg-background text-on-surface">
+<!-- TopNavBar -->
+<nav class="bg-background/90 backdrop-blur-md dark:bg-background/90 full-width top-0 sticky border-b border-outline-variant dark:border-outline z-50">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-6 max-w-screen-2xl mx-auto">
+<div class="font-headline-md text-headline-md font-semibold text-primary dark:text-inverse-primary tracking-tight">
+                박타미 TAMI PARK
+            </div>
+<div class="hidden md:flex gap-8">
+<a class="font-label-caps text-label-caps text-deep-wine dark:text-primary-fixed-dim font-bold border-b-2 border-deep-wine pb-1" href="#intro">소개</a>
+<a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine transition-colors pb-1" href="#work">작업</a>
+<a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine transition-colors pb-1" href="#awards">수상</a>
+<a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine transition-colors pb-1" href="#skills">스킬</a>
+<a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine transition-colors pb-1" href="#contact">연락처</a>
+</div>
+<!-- Mobile Menu Icon Placeholder -->
+<button class="md:hidden text-charcoal-brown">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main class="max-w-screen-2xl mx-auto">
+<!-- Hero Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap grid grid-cols-1 md:grid-cols-2 gap-gutter items-center" id="intro">
+<div class="flex flex-col gap-6">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-charcoal-brown">
+                    박타미
+                </h1>
+<p class="font-headline-md text-headline-md text-deep-wine">
+                    영화감독 · AI 영상 크리에이터
+                </p>
+<p class="font-body-lg text-body-lg text-dark-taupe max-w-lg mt-4">
+                    기술과 서사를 결합하여 새로운 시각적 경험을 만드는 제작자입니다.
+                </p>
+<div class="mt-8 flex flex-col gap-4">
+<a class="font-body-md text-body-md text-charcoal-brown flex items-center gap-2 hover:text-deep-wine transition-colors w-fit" href="mailto:tamiwriter@naver.com">
+<span class="material-symbols-outlined">mail</span>
+                        tamiwriter@naver.com
+                    </a>
+<div class="flex gap-4 mt-2">
+<a class="font-label-caps text-label-caps text-dark-taupe border-b border-dark-taupe hover:text-deep-wine hover:border-deep-wine transition-colors pb-1" href="#">게임 블로그</a>
+<a class="font-label-caps text-label-caps text-dark-taupe border-b border-dark-taupe hover:text-deep-wine hover:border-deep-wine transition-colors pb-1" href="#">영화 블로그</a>
+<a class="font-label-caps text-label-caps text-dark-taupe border-b border-dark-taupe hover:text-deep-wine hover:border-deep-wine transition-colors pb-1" href="#">브런치</a>
+</div>
+</div>
+</div>
+<div class="relative w-full aspect-[4/5] bg-soft-beige rounded-lg overflow-hidden p-6 md:p-12">
+<img alt="박타미 프로필 사진" class="w-full h-full object-cover rounded-lg shadow-sm" data-alt="A cinematic portrait of a Korean female filmmaker in a warm Japandi minimalist setting, soft neutral tones, elegant lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8BL-JJ-tPoBihco9rEMzPrYnNt0Ncj8nnovtWicPmH7YDZ7zRX4UtWNb3dT6ceKVC7kn-TQi1ohOePvIkKWKBbJpohMBfMER2_ev8o0PSh_vsbXnTEF_wMb6LonT2WPzAi08MjfqRNBD8ConimLhaWcoSWWPiBUF8sUczmm8sOeaZU9DFCUDD4R4b77-9T2l1NSizmq2p6vClDaRk-9VF1AeUHRQkd5KgzOZxyUyPJOJlpbrnavkzLSGZBg3cOCF0u0dEG3JMvkSH"/>
+</div>
+</section>
+<!-- 한눈에 보기 Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap bg-warm-greige">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-charcoal-brown mb-16 text-center">한눈에 보기</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Left Column -->
+<div class="bg-soft-beige p-8 rounded-lg flex flex-col gap-6">
+<h3 class="font-headline-md text-headline-md text-deep-wine border-b border-outline-variant pb-4">현재 2025~</h3>
+<ul class="font-body-md text-body-md text-dark-taupe space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-deep-wine mt-1 text-sm">movie_edit</span>
+<span>프리랜서 영상편집</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-deep-wine mt-1 text-sm">music_note</span>
+<span>다큐멘터리 음악감독(탁기영 감독 作)</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-deep-wine mt-1 text-sm">sports_esports</span>
+<span>게임 UI·영상·기능구현</span>
+</li>
+</ul>
+</div>
+<!-- Right Column -->
+<div class="bg-soft-beige p-8 rounded-lg flex flex-col gap-6">
+<h3 class="font-headline-md text-headline-md text-deep-wine border-b border-outline-variant pb-4">저는 이런 사람이에요</h3>
+<ul class="font-body-md text-body-md text-dark-taupe space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-deep-wine mt-1 text-sm">edit_document</span>
+<span>꾸준한 블로그 기록</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-deep-wine mt-1 text-sm">translate</span>
+<span>J-POP·일본어 공부</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-deep-wine mt-1 text-sm">interests</span>
+<span>게임·음악·애니</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-deep-wine mt-1 text-sm">diversity_3</span>
+<span>작가·아트·편집·사운드 올라운더</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-deep-wine mt-1 text-sm">flight_takeoff</span>
+<span>인도 한 달 체류</span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- 수상 경력 Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap" id="awards">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-charcoal-brown mb-16">수상 경력</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<div class="flex flex-col gap-4 group">
+<div class="w-full aspect-video bg-soft-beige rounded-lg overflow-hidden p-4 relative">
+<img alt="지구가 목욕탕이라면? 스톱모션 애니메이션" class="w-full h-full object-cover rounded shadow-sm group-hover:scale-105 transition-transform duration-500" data-alt="A stop-motion animation still featuring a quirky character in a conceptual bathhouse setting on Earth, soft tactile textures, warm dramatic lighting, Japandi minimalist aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0_O6Jba8GX_UsFon-_yKIg1xYXY2UuzSjC0LlEZW86-uwVAr4Eyw1EM0k0-1LdtYoupx_d_1pg5EUEzPH2C23GZl70dR8-Qmf8gsjwqBwT-nbneDcAJZRe-dMcJwih_-chK0u-Zr-sKYWp0O3yxCdH_DaO25rjCJP5FgM2c5JO8rIvUYEfMmw1gc9c_f8jH5GdLLkLVENUc0NVXsRDhmxf-j46VX42iPq_zvrMHkR46ILWWdryYpKpSRsa6-CLEI2X1rwWjm9AUSY"/>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-dark-taupe mb-2">2022 글로벌 하나뿐인 지구영상제</p>
+<h4 class="font-headline-md text-headline-md text-charcoal-brown">'지구가 목욕탕이라면?' 스톱모션 애니메이션</h4>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="flex flex-col gap-4 group">
+<div class="w-full aspect-video bg-soft-beige rounded-lg overflow-hidden p-4 relative">
+<img alt="유네스코 대상 프로젝트" class="w-full h-full object-cover rounded shadow-sm group-hover:scale-105 transition-transform duration-500" data-alt="A cinematic still representing a creative film project in Busan, elegant framing, muted greige tones, soft natural light, editorial magazine style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9b_9YwESrYR9TcvcULs9BJUjqJI45QWhvc7iVwT0zxJGtiqGEiAiFxDzIdN2JsTKcttw1SKIi9Yo_uLfqR7zl5g1YdEcAKGuJ0lyJi7BHdyAfnkfeDfHFpTMN2MLzyR6WQhGBIDwgLU_4FfKcn99uKmlBNX4DFKD7yO3QAD1f5_78dfVoovFBzA5A3ul0gAycsunYet9738E5Graz6kZk6BYMyzy2QZNrHIT6Je1GGegx00cb2q9OuV0qJpmUHrrfQt36EWarCzto"/>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-dark-taupe mb-2">2022 유네스코 영화창의도시 부산 파트너즈</p>
+<h4 class="font-headline-md text-headline-md text-charcoal-brown">대상 수상, OSMU 프로젝트</h4>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="flex flex-col gap-4 group">
+<div class="w-full aspect-video bg-soft-beige rounded-lg overflow-hidden p-4 relative">
+<img alt="같이 시나리오 편집" class="w-full h-full object-cover rounded shadow-sm group-hover:scale-105 transition-transform duration-500" data-alt="A conceptual cinematic scene showing a scriptwriting or editing process, minimalist desk setup, warm moody lighting, focus on creative storytelling tools." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9b_9YwESrYR9TcvcULs9BJUjqJI45QWhvc7iVwT0zxJGtiqGEiAiFxDzIdN2JsTKcttw1SKIi9Yo_uLfqR7zl5g1YdEcAKGuJ0lyJi7BHdyAfnkfeDfHFpTMN2MLzyR6WQhGBIDwgLU_4FfKcn99uKmlBNX4DFKD7yO3QAD1f5_78dfVoovFBzA5A3ul0gAycsunYet9738E5Graz6kZk6BYMyzy2QZNrHIT6Je1GGegx00cb2q9OuV0qJpmUHrrfQt36EWarCzto"/>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-dark-taupe mb-2">2022 051영화제 부산광역시장상</p>
+<h4 class="font-headline-md text-headline-md text-charcoal-brown">'같이' 시나리오·편집</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- 작업·경력 Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap bg-soft-beige" id="work">
+<div class="max-w-4xl mx-auto">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-charcoal-brown mb-12 border-b border-outline-variant pb-6">작업·경력</h2>
+<ul class="flex flex-col gap-8 font-body-lg text-body-lg text-dark-taupe">
+<li class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 pb-6 border-b border-outline-variant/50">
+<span class="font-label-caps text-label-caps text-deep-wine shrink-0 w-24">2023</span>
+<span class="font-headline-md text-headline-md text-charcoal-brown">울주세계산악영화제 &lt;보이드&gt; 스크립터</span>
+</li>
+<li class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 pb-6 border-b border-outline-variant/50">
+<span class="font-label-caps text-label-caps text-deep-wine shrink-0 w-24">2022</span>
+<span class="font-headline-md text-headline-md text-charcoal-brown">부산국제영화제 영화만들기 프로젝트 보조강사</span>
+</li>
+<li class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 pb-6 border-b border-outline-variant/50">
+<span class="font-label-caps text-label-caps text-deep-wine shrink-0 w-24">2022</span>
+<span class="font-headline-md text-headline-md text-charcoal-brown">영화의전당 영화제작교실 보조강사</span>
+</li>
+<li class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 pb-6 border-b border-outline-variant/50">
+<span class="font-label-caps text-label-caps text-deep-wine shrink-0 w-24"></span>
+<span class="font-headline-md text-headline-md text-charcoal-brown">&lt;안녕, 할아버지&gt; 조감독</span>
+</li>
+<li class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 pb-6">
+<span class="font-label-caps text-label-caps text-deep-wine shrink-0 w-24">2021</span>
+<span class="font-headline-md text-headline-md text-charcoal-brown">&lt;마스크를 드립니다&gt; 조감독</span>
+</li>
+</ul>
+</div>
+</section>
+<!-- 스킬 Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap" id="skills">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-charcoal-brown mb-16 text-center">스킬</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Design -->
+<div class="bg-warm-greige p-8 rounded-lg border border-outline-variant/30">
+<div class="flex justify-between items-center mb-6 border-b border-outline-variant pb-4">
+<h3 class="font-headline-md text-headline-md text-charcoal-brown">디자인</h3>
+<span class="font-label-caps text-label-caps text-deep-wine px-3 py-1 bg-primary-fixed rounded-full">고급</span>
+</div>
+<p class="font-body-md text-body-md text-dark-taupe leading-relaxed">
+                        Notion, Figma, JIRA, 포토샵·일러스트(GTQ 1급), 파이널컷·프리미어프로
+                    </p>
+</div>
+<!-- Dev -->
+<div class="bg-warm-greige p-8 rounded-lg border border-outline-variant/30">
+<div class="flex justify-between items-center mb-6 border-b border-outline-variant pb-4">
+<h3 class="font-headline-md text-headline-md text-charcoal-brown">개발</h3>
+<span class="font-label-caps text-label-caps text-secondary px-3 py-1 bg-surface-variant rounded-full">중급</span>
+</div>
+<p class="font-body-md text-body-md text-dark-taupe leading-relaxed">
+                        블루프린트 게임개발, 로딩→오픈레벨→세이브/로드, 데이터테이블 관리
+                    </p>
+</div>
+<!-- AI -->
+<div class="bg-warm-greige p-8 rounded-lg border border-outline-variant/30 md:col-span-2">
+<div class="flex justify-between items-center mb-6 border-b border-outline-variant pb-4">
+<h3 class="font-headline-md text-headline-md text-charcoal-brown">AI 크리에이티브</h3>
+<span class="font-label-caps text-label-caps text-deep-wine px-3 py-1 bg-primary-fixed rounded-full">고급</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-1">
+<p class="font-body-md text-body-md text-dark-taupe leading-relaxed mb-4">
+                                ChatGPT 프롬프트, 미드저니 UI, Suno BGM 설계 및 에셋 제작
+                            </p>
+</div>
+<div class="md:col-span-2 grid grid-cols-2 gap-4">
+<div class="aspect-video bg-soft-beige rounded overflow-hidden relative">
+<img alt="AI 게임 프롤로그 영상" class="w-full h-full object-cover" data-alt="A mystical sci-fi game UI concept art, floating islands in a dark serene atmosphere, teal and neon blue accents, detailed holographic interface elements, Japandi clean composition." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvtIPDr8OyN9nlcfvd71An7-Yp5fftuVVVbukBeVv6l3Jpkbplp_5T7eDCxfQ13KnPs6GczFUf4V9I5HqYuy5mWxvPEtAoBqch4Vv00UHFnZXLJzVZsItJrtumbvX_VnyPBA64hXRDD31RO58vWu2Qnjkk_y1K48Sca4uiaOkcOtsE5lw1fJ9S4SSiyN8OaIurO8cHOt9Q04WPohM0U_pL5WqRNiCAk5ynKyHPcz3XC4rJM1mYUQmetBeK5Mt6SZm9CLLxRsvU0HQ4"/>
+<div class="absolute bottom-2 left-2 bg-background/80 px-2 py-1 rounded text-xs font-label-caps text-charcoal-brown">AI 게임 프롤로그</div>
+</div>
+<div class="aspect-video bg-soft-beige rounded overflow-hidden relative">
+<img alt="SF Truck 콘셉트 기획" class="w-full h-full object-cover" data-alt="A conceptual illustration of a futuristic sci-fi heavy duty truck driving across a desert landscape, muted orange and taupe color palette, cinematic lighting, stylized concept art." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBWRcSSwPBswM6W9OktgaCT_Lj-49pMg0vLQe8ZZ0iMJnFcG_GmUXZNziCv2R9bW48up08NWunyHh_RvCviNZTAqWbwVr--nIlzHxLujsM5QEy_WbGz2KAAopDZfEtJ979ovKjmLZ86_gzu9B1INKA1TvaOjGo1bOSCEqidt9NTQo5BL4NmKJ7CR8rv--3m5odWMyZZchufjg65NlZ6j2K3DE-Q94ZWXnVF_v-sqTnwiGuBdZuk3kxcJW4R3StRtKOkcLp8jTmThJB"/>
+<div class="absolute bottom-2 left-2 bg-background/80 px-2 py-1 rounded text-xs font-label-caps text-charcoal-brown">SF Truck 콘셉트 기획</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Marketing -->
+<div class="bg-warm-greige p-8 rounded-lg border border-outline-variant/30 md:col-span-2 flex flex-col md:flex-row items-center gap-8">
+<div class="md:w-1/3 text-center md:text-left border-b md:border-b-0 md:border-r border-outline-variant pb-4 md:pb-0 md:pr-8">
+<h3 class="font-headline-md text-headline-md text-charcoal-brown">마케팅</h3>
+</div>
+<div class="md:w-2/3">
+<p class="font-body-md text-body-md text-dark-taupe text-center md:text-left text-lg">
+                            브랜딩, 스토리텔링, 콘텐츠 기획·제작
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Fun Facts Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap bg-soft-beige">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-charcoal-brown mb-16 text-center italic">Fun Facts</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-px bg-outline-variant/50 max-w-5xl mx-auto rounded-lg overflow-hidden border border-outline-variant/50">
+<div class="bg-background p-12 flex flex-col items-center justify-center text-center gap-4 hover:bg-warm-greige transition-colors duration-300">
+<span class="material-symbols-outlined text-4xl text-deep-wine">mic</span>
+<p class="font-headline-md text-headline-md text-charcoal-brown">제27회 부산국제영화제 노래자랑 무대</p>
+</div>
+<div class="bg-background p-12 flex flex-col items-center justify-center text-center gap-4 hover:bg-warm-greige transition-colors duration-300">
+<span class="material-symbols-outlined text-4xl text-deep-wine">record_voice_over</span>
+<p class="font-headline-md text-headline-md text-charcoal-brown">영화 예고편 내레이션<br/><span class="text-lg text-dark-taupe mt-2 block">(&lt;이송도 브루스&gt;)</span></p>
+</div>
+<div class="bg-background p-12 flex flex-col items-center justify-center text-center gap-4 hover:bg-warm-greige transition-colors duration-300">
+<span class="material-symbols-outlined text-4xl text-deep-wine">landscape</span>
+<p class="font-headline-md text-headline-md text-charcoal-brown">자이살메르 사막 '외박'</p>
+</div>
+<div class="bg-background p-12 flex flex-col items-center justify-center text-center gap-4 hover:bg-warm-greige transition-colors duration-300">
+<span class="material-symbols-outlined text-4xl text-deep-wine">group</span>
+<p class="font-headline-md text-headline-md text-charcoal-brown">13만 방문 블로거<br/><span class="text-lg text-dark-taupe mt-2 block">(누적 113,802)</span></p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-soft-beige dark:bg-tertiary-container w-full py-section-gap px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center max-w-screen-2xl mx-auto" id="contact">
+<div class="mb-8 md:mb-0 text-center md:text-left">
+<div class="font-headline-md text-headline-md text-charcoal-brown dark:text-on-surface mb-2">
+                박타미 TAMI PARK
+            </div>
+<div class="font-body-md text-body-md text-dark-taupe dark:text-on-tertiary-container">
+                © 2025 TAMI PARK. All rights reserved.
+            </div>
+</div>
+<div class="flex gap-6">
+<a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine dark:hover:text-primary-fixed-dim underline transition-all" href="#">Blog</a>
+<a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine dark:hover:text-primary-fixed-dim underline transition-all" href="#">Brunch</a>
+<a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine dark:hover:text-primary-fixed-dim underline transition-all" href="#">Instagram</a>
+<a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine dark:hover:text-primary-fixed-dim underline transition-all" href="mailto:tamiwriter@naver.com">Email</a>
+</div>
+</footer>
+</body></html>

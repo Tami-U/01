@@ -1,0 +1,39 @@
+<script>
+    import * as Card from "$lib/components/ui/card/index.js";
+</script>
+
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap" id="awards">
+    <h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-charcoal-brown mb-16">수상 경력</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+        <!-- Card 1 -->
+        <Card.Root class="group flex flex-col gap-4 border-none shadow-none bg-transparent">
+            <div class="w-full aspect-video bg-soft-beige rounded-lg overflow-hidden p-4 relative">
+                <img alt="지구가 목욕탕이라면? 스톱모션 애니메이션" class="w-full h-full object-cover rounded shadow-sm group-hover:scale-105 transition-transform duration-500" data-alt="A stop-motion animation still featuring a quirky character in a conceptual bathhouse setting on Earth, soft tactile textures, warm dramatic lighting, Japandi minimalist aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0_O6Jba8GX_UsFon-_yKIg1xYXY2UuzSjC0LlEZW86-uwVAr4Eyw1EM0k0-1LdtYoupx_d_1pg5EUEzPH2C23GZl70dR8-Qmf8gsjwqBwT-nbneDcAJZRe-dMcJwih_-chK0u-Zr-sKYWp0O3yxCdH_DaO25rjCJP5FgM2c5JO8rIvUYEfMmw1gc9c_f8jH5GdLLkLVENUc0NVXsRDhmxf-j46VX42iPq_zvrMHkR46ILWWdryYpKpSRsa6-CLEI2X1rwWjm9AUSY"/>
+            </div>
+            <Card.Header class="p-0">
+                <Card.Description class="font-label-caps text-label-caps text-dark-taupe mb-2">2022 글로벌 하나뿐인 지구영상제</Card.Description>
+                <Card.Title class="font-headline-md text-headline-md text-charcoal-brown">'지구가 목욕탕이라면?' 스톱모션 애니메이션</Card.Title>
+            </Card.Header>
+        </Card.Root>
+        <!-- Card 2 -->
+        <Card.Root class="group flex flex-col gap-4 border-none shadow-none bg-transparent">
+            <div class="w-full aspect-video bg-soft-beige rounded-lg overflow-hidden p-4 relative">
+                <img alt="유네스코 대상 프로젝트" class="w-full h-full object-cover rounded shadow-sm group-hover:scale-105 transition-transform duration-500" data-alt="A cinematic still representing a creative film project in Busan, elegant framing, muted greige tones, soft natural light, editorial magazine style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9b_9YwESrYR9TcvcULs9BJUjqJI45QWhvc7iVwT0zxJGtiqGEiAiFxDzIdN2JsTKcttw1SKIi9Yo_uLfqR7zl5g1YdEcAKGuJ0lyJi7BHdyAfnkfeDfHFpTMN2MLzyR6WQhGBIDwgLU_4FfKcn99uKmlBNX4DFKD7yO3QAD1f5_78dfVoovFBzA5A3ul0gAycsunYet9738E5Graz6kZk6BYMyzy2QZNrHIT6Je1GGegx00cb2q9OuV0qJpmUHrrfQt36EWarCzto"/>
+            </div>
+            <Card.Header class="p-0">
+                <Card.Description class="font-label-caps text-label-caps text-dark-taupe mb-2">2022 유네스코 영화창의도시 부산 파트너즈</Card.Description>
+                <Card.Title class="font-headline-md text-headline-md text-charcoal-brown">대상 수상, OSMU 프로젝트</Card.Title>
+            </Card.Header>
+        </Card.Root>
+        <!-- Card 3 -->
+        <Card.Root class="group flex flex-col gap-4 border-none shadow-none bg-transparent">
+            <div class="w-full aspect-video bg-soft-beige rounded-lg overflow-hidden p-4 relative">
+                <img alt="같이 시나리오 편집" class="w-full h-full object-cover rounded shadow-sm group-hover:scale-105 transition-transform duration-500" data-alt="A conceptual cinematic scene showing a scriptwriting or editing process, minimalist desk setup, warm moody lighting, focus on creative storytelling tools." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9b_9YwESrYR9TcvcULs9BJUjqJI45QWhvc7iVwT0zxJGtiqGEiAiFxDzIdN2JsTKcttw1SKIi9Yo_uLfqR7zl5g1YdEcAKGuJ0lyJi7BHdyAfnkfeDfHFpTMN2MLzyR6WQhGBIDwgLU_4FfKcn99uKmlBNX4DFKD7yO3QAD1f5_78dfVoovFBzA5A3ul0gAycsunYet9738E5Graz6kZk6BYMyzy2QZNrHIT6Je1GGegx00cb2q9OuV0qJpmUHrrfQt36EWarCzto"/>
+            </div>
+            <Card.Header class="p-0">
+                <Card.Description class="font-label-caps text-label-caps text-dark-taupe mb-2">2022 051영화제 부산광역시장상</Card.Description>
+                <Card.Title class="font-headline-md text-headline-md text-charcoal-brown">'같이' 시나리오·편집</Card.Title>
+            </Card.Header>
+        </Card.Root>
+    </div>
+</section>
