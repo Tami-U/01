@@ -1,16 +1,22 @@
 <script>
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
-    import Navbar from '$lib/components/Navbar.svelte';
-    import Footer from '$lib/components/Footer.svelte';
+	import Navbar from '$lib/components/Navbar.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import { page } from '$app/state';
 
 	let { children } = $props();
+	const isAdmin = $derived(page.url.pathname.startsWith('/admin'));
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<Navbar />
-<main class="max-w-screen-2xl mx-auto">
-    {@render children()}
-</main>
-<Footer />
+{#if isAdmin}
+	{@render children()}
+{:else}
+	<Navbar />
+	<main class="max-w-screen-2xl mx-auto">
+		{@render children()}
+	</main>
+	<Footer />
+{/if}
