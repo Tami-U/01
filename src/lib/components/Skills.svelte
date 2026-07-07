@@ -12,7 +12,7 @@
                 <Badge variant="default" class="font-label-caps text-label-caps rounded-full px-3 py-1 bg-primary-fixed text-deep-wine hover:bg-primary-fixed/80">고급</Badge>
             </div>
             <p class="font-body-md text-body-md text-dark-taupe leading-relaxed">
-                Notion, Figma, JIRA, 포토샵·일러스트(GTQ 1급), 파이널컷·프리미어프로
+                Notion, Figma, 포토샵·일러스트(GTQ 1급), 파이널컷·프리미어프로
             </p>
         </div>
         <!-- Dev -->
