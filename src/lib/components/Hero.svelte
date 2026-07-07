@@ -20,13 +20,13 @@
                 tamiwriter@naver.com
             </Button>
             <div class="flex gap-4 mt-2">
-                <Button variant="link" class="font-label-caps text-label-caps text-dark-taupe hover:text-deep-wine px-0 h-auto" href="#">게임 블로그</Button>
-                <Button variant="link" class="font-label-caps text-label-caps text-dark-taupe hover:text-deep-wine px-0 h-auto" href="#">영화 블로그</Button>
-                <Button variant="link" class="font-label-caps text-label-caps text-dark-taupe hover:text-deep-wine px-0 h-auto" href="#">브런치</Button>
+                <Button variant="link" target="_blank" rel="noopener" class="font-label-caps text-label-caps text-dark-taupe hover:text-deep-wine px-0 h-auto" href="https://tami-u.tistory.com/">게임 블로그</Button>
+                <Button variant="link" target="_blank" rel="noopener" class="font-label-caps text-label-caps text-dark-taupe hover:text-deep-wine px-0 h-auto" href="https://tami-film.tistory.com/">영화 블로그</Button>
+                <Button variant="link" target="_blank" rel="noopener" class="font-label-caps text-label-caps text-dark-taupe hover:text-deep-wine px-0 h-auto" href="https://brunch.co.kr/@utami">브런치</Button>
             </div>
         </div>
     </div>
     <div class="relative w-full aspect-[4/5] bg-soft-beige rounded-lg overflow-hidden p-6 md:p-12">
-        <img alt="박타미 프로필 사진" class="w-full h-full object-cover rounded-lg shadow-sm" data-alt="A cinematic portrait of a Korean female filmmaker in a warm Japandi minimalist setting, soft neutral tones, elegant lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8BL-JJ-tPoBihco9rEMzPrYnNt0Ncj8nnovtWicPmH7YDZ7zRX4UtWNb3dT6ceKVC7kn-TQi1ohOePvIkKWKBbJpohMBfMER2_ev8o0PSh_vsbXnTEF_wMb6LonT2WPzAi08MjfqRNBD8ConimLhaWcoSWWPiBUF8sUczmm8sOeaZU9DFCUDD4R4b77-9T2l1NSizmq2p6vClDaRk-9VF1AeUHRQkd5KgzOZxyUyPJOJlpbrnavkzLSGZBg3cOCF0u0dEG3JMvkSH"/>
+        <img alt="박타미 프로필 사진 - ARRI 카메라로 촬영 중" class="w-full h-full object-cover rounded-lg shadow-sm" src="/images/profile.png"/>
     </div>
 </section>
