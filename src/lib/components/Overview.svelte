@@ -3,7 +3,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
         <!-- Left Column -->
         <div class="bg-soft-beige p-8 rounded-lg flex flex-col gap-6">
-            <h3 class="font-headline-md text-headline-md text-deep-wine border-b border-outline-variant pb-4">현재 2025~</h3>
+            <h3 class="font-headline-md text-headline-md text-deep-wine border-b border-outline-variant pb-4">현재 2026~</h3>
             <ul class="font-body-md text-body-md text-dark-taupe space-y-4">
                 <li class="flex items-start gap-3">
                     <span class="material-symbols-outlined text-deep-wine mt-1 text-sm">co_present</span>
