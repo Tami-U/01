@@ -11,16 +11,19 @@
                 <p class="font-headline-md text-headline-md text-charcoal-brown">제27회 부산국제영화제 노래자랑 무대</p>
             </div>
         </div>
-        <!-- 영화 예고편 내레이션 (영상) -->
-        <div class="group bg-background rounded-xl overflow-hidden shadow-sm border border-outline-variant/40">
-            <div class="w-full aspect-video bg-warm-greige flex items-center justify-center">
-                <span class="material-symbols-outlined text-6xl text-deep-wine">record_voice_over</span>
+        <!-- 영화 예고편 내레이션 (영상 링크) -->
+        <a href="https://www.youtube.com/watch?v=LVwKSMiemIc" target="_blank" rel="noopener" class="group block bg-background rounded-xl overflow-hidden shadow-sm border border-outline-variant/40 transition-shadow hover:shadow-md">
+            <div class="w-full aspect-video overflow-hidden relative">
+                <img src="/images/fun-narration.jpg" alt="영화 &lt;이송도 브루스&gt; 예고편" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+                <div class="absolute inset-0 flex items-center justify-center bg-black/10 group-hover:bg-black/20 transition-colors">
+                    <span class="material-symbols-outlined text-white text-7xl drop-shadow-lg" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+                </div>
             </div>
             <div class="p-6 flex items-center gap-3">
                 <span class="material-symbols-outlined text-3xl text-deep-wine">movie</span>
                 <p class="font-headline-md text-headline-md text-charcoal-brown">영화 예고편 내레이션 <span class="text-lg text-dark-taupe">(&lt;이송도 브루스&gt;)</span></p>
             </div>
-        </div>
+        </a>
         <!-- 사막 외박 -->
         <div class="group bg-background rounded-xl overflow-hidden shadow-sm border border-outline-variant/40">
             <div class="w-full aspect-video overflow-hidden">
