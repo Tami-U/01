@@ -34,11 +34,11 @@
         <!-- 13만 방문 블로거 -->
         <div class="group bg-background rounded-xl overflow-hidden shadow-sm border border-outline-variant/40">
             <div class="w-full aspect-video overflow-hidden bg-warm-greige flex items-center justify-center p-6">
-                <img src="/images/fun-blog.png" alt="블로그 누적 방문자 113,802명" class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"/>
+                <img src="/images/fun-blog.svg" alt="블로그 누적 방문자 136,795명" class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"/>
             </div>
             <div class="p-6 flex items-center gap-3">
                 <span class="material-symbols-outlined text-3xl text-deep-wine">group</span>
-                <p class="font-headline-md text-headline-md text-charcoal-brown">13만 방문 블로거 <span class="text-lg text-dark-taupe">(누적 113,802)</span></p>
+                <p class="font-headline-md text-headline-md text-charcoal-brown">13만 방문 블로거 <span class="text-lg text-dark-taupe">(누적 136,795)</span></p>
             </div>
         </div>
     </div>
