@@ -6,8 +6,8 @@
             <h3 class="font-headline-md text-headline-md text-deep-wine border-b border-outline-variant pb-4">현재 2025~</h3>
             <ul class="font-body-md text-body-md text-dark-taupe space-y-4">
                 <li class="flex items-start gap-3">
-                    <span class="material-symbols-outlined text-deep-wine mt-1 text-sm">movie_edit</span>
-                    <span>프리랜서 영상편집</span>
+                    <span class="material-symbols-outlined text-deep-wine mt-1 text-sm">co_present</span>
+                    <span>경성대학교 AI미디어학과 외래특강 강사</span>
                 </li>
                 <li class="flex items-start gap-3">
                     <span class="material-symbols-outlined text-deep-wine mt-1 text-sm">music_note</span>
