@@ -13,7 +13,7 @@
         },
         en: {
             tagline: 'A film director who completes an entire film alone',
-            desc: 'From the first idea to the final release — single-handedly.',
+            desc: '',
             game: 'Game Blog',
             film: 'Film Blog',
             brunch: 'Brunch'
@@ -29,9 +29,11 @@
         <p class="font-headline-md text-headline-md text-deep-wine">
             {t.tagline}
         </p>
-        <p class="font-body-lg text-body-lg text-dark-taupe max-w-lg mt-4">
-            {t.desc}
-        </p>
+        {#if t.desc}
+            <p class="font-body-lg text-body-lg text-dark-taupe max-w-lg mt-4">
+                {t.desc}
+            </p>
+        {/if}
         <div class="mt-8 flex flex-col items-start gap-4">
             <Button variant="ghost" class="font-body-md text-body-md text-charcoal-brown flex items-center gap-2 hover:text-deep-wine hover:bg-transparent transition-colors px-0 w-fit" href="mailto:tamiwriter@naver.com">
                 <Mail class="w-5 h-5" />
