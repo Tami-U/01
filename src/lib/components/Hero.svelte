@@ -43,7 +43,7 @@
             </Button>
             <div class="flex gap-4 mt-2">
                 <Button variant="link" target="_blank" rel="noopener" class="font-label-caps text-label-caps text-dark-taupe hover:text-deep-wine px-0 h-auto" href="https://tami-u.tistory.com/">{t.game}</Button>
-                <Button variant="link" target="_blank" rel="noopener" class="font-label-caps text-label-caps text-dark-taupe hover:text-deep-wine px-0 h-auto" href="https://tami-film.tistory.com/">{t.film}</Button>
+                <Button variant="link" target="_blank" rel="noopener" class="font-label-caps text-label-caps text-dark-taupe hover:text-deep-wine px-0 h-auto" href="https://tami-u.tistory.com/">{t.film}</Button>
                 <Button variant="link" target="_blank" rel="noopener" class="font-label-caps text-label-caps text-dark-taupe hover:text-deep-wine px-0 h-auto" href="https://brunch.co.kr/@utami">{t.brunch}</Button>
             </div>
         </div>
