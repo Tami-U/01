@@ -51,7 +51,7 @@
                     {i18n.lang === 'ko' ? link.ko : link.en}
                 </a>
             {/each}
-            <a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine transition-colors pb-1 border-b-2 border-transparent" href="https://tami-u.tistory.com/" target="_blank" rel="noopener">{blogLabel}</a>
+            <a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine transition-colors pb-1 border-b-2 border-transparent" href="https://tami-film.tistory.com/" target="_blank" rel="noopener">{blogLabel}</a>
 
             <!-- 언어 전환 -->
             <div class="flex items-center gap-1 font-label-caps text-label-caps">

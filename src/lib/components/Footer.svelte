@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="flex gap-6">
-        <a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine dark:hover:text-primary-fixed-dim underline transition-all" href="https://tami-u.tistory.com/" target="_blank" rel="noopener">Blog</a>
+        <a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine dark:hover:text-primary-fixed-dim underline transition-all" href="https://tami-film.tistory.com/" target="_blank" rel="noopener">Blog</a>
         <a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine dark:hover:text-primary-fixed-dim underline transition-all" href="https://brunch.co.kr/@utami" target="_blank" rel="noopener">Brunch</a>
         <a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine dark:hover:text-primary-fixed-dim underline transition-all" href="https://www.instagram.com/utami.zip/" target="_blank" rel="noopener">Instagram</a>
         <a class="font-label-caps text-label-caps text-dark-taupe dark:text-secondary-fixed-dim hover:text-deep-wine dark:hover:text-primary-fixed-dim underline transition-all" href="mailto:tamiwriter@naver.com">Email</a>
