@@ -34,14 +34,18 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="md:col-span-1">
                     <p class="font-body-md text-body-md text-dark-taupe leading-relaxed mb-4">
-                        ChatGPT 프롬프트, 미드저니 UI, Suno BGM 설계 및 에셋 제작
+                        ChatGPT 프롬프트, 미드저니 UI, Suno BGM 설계 및 에셋 제작, AI 영상 제작
                     </p>
+                    <a href="https://my-question-cards.vercel.app/" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 font-label-caps text-label-caps text-deep-wine hover:underline">
+                        바이브 코딩 · Aida 질문카드
+                        <span class="material-symbols-outlined text-base">north_east</span>
+                    </a>
                 </div>
                 <div class="md:col-span-2 grid grid-cols-2 gap-4">
-                    <div class="aspect-video bg-soft-beige rounded overflow-hidden relative">
-                        <img alt="AI 게임 프롤로그 영상" class="w-full h-full object-cover" data-alt="A mystical sci-fi game UI concept art, floating islands in a dark serene atmosphere, teal and neon blue accents, detailed holographic interface elements, Japandi clean composition." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvtIPDr8OyN9nlcfvd71An7-Yp5fftuVVVbukBeVv6l3Jpkbplp_5T7eDCxfQ13KnPs6GczFUf4V9I5HqYuy5mWxvPEtAoBqch4Vv00UHFnZXLJzVZsItJrtumbvX_VnyPBA64hXRDD31RO58vWu2Qnjkk_y1K48Sca4uiaOkcOtsE5lw1fJ9S4SSiyN8OaIurO8cHOt9Q04WPohM0U_pL5WqRNiCAk5ynKyHPcz3XC4rJM1mYUQmetBeK5Mt6SZm9CLLxRsvU0HQ4"/>
-                        <div class="absolute bottom-2 left-2 bg-background/80 px-2 py-1 rounded text-xs font-label-caps text-charcoal-brown">AI 게임 프롤로그</div>
-                    </div>
+                    <a href="https://my-question-cards.vercel.app/" target="_blank" rel="noopener" class="group aspect-video bg-soft-beige rounded overflow-hidden relative block">
+                        <img alt="바이브 코딩 프로젝트 - Aida 질문카드 웹앱" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="/images/aida-cards.svg"/>
+                        <div class="absolute bottom-2 left-2 bg-background/80 px-2 py-1 rounded text-xs font-label-caps text-charcoal-brown">Aida 질문카드 ↗</div>
+                    </a>
                     <div class="aspect-video bg-soft-beige rounded overflow-hidden relative">
                         <img alt="SF Truck 콘셉트 기획" class="w-full h-full object-cover" data-alt="A conceptual illustration of a futuristic sci-fi heavy duty truck driving across a desert landscape, muted orange and taupe color palette, cinematic lighting, stylized concept art." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBWRcSSwPBswM6W9OktgaCT_Lj-49pMg0vLQe8ZZ0iMJnFcG_GmUXZNziCv2R9bW48up08NWunyHh_RvCviNZTAqWbwVr--nIlzHxLujsM5QEy_WbGz2KAAopDZfEtJ979ovKjmLZ86_gzu9B1INKA1TvaOjGo1bOSCEqidt9NTQo5BL4NmKJ7CR8rv--3m5odWMyZZchufjg65NlZ6j2K3DE-Q94ZWXnVF_v-sqTnwiGuBdZuk3kxcJW4R3StRtKOkcLp8jTmThJB"/>
                         <div class="absolute bottom-2 left-2 bg-background/80 px-2 py-1 rounded text-xs font-label-caps text-charcoal-brown">SF Truck 콘셉트 기획</div>

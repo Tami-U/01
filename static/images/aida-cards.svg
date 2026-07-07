@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f3f0"/>
+      <stop offset="1" stop-color="#e9e3db"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <text x="70" y="290" font-family="'Noto Serif KR', serif" font-size="240" font-weight="700" fill="#6B1D23">間</text>
+  <text x="330" y="180" font-family="'Noto Serif KR', serif" font-size="72" font-weight="700" fill="#2D2926">Aida</text>
+  <text x="332" y="235" font-family="'Source Sans 3', sans-serif" font-size="30" fill="#4A443F">질문 &amp; 밸런스 카드</text>
+  <text x="332" y="278" font-family="'Source Sans 3', sans-serif" font-size="24" fill="#887271">사이, 그리고 서로의 간격</text>
+  <text x="332" y="352" font-family="'Source Sans 3', sans-serif" font-size="20" letter-spacing="2" fill="#6B1D23">VIBE&#160;CODED&#160;·&#160;WEB&#160;APP</text>
+</svg>
