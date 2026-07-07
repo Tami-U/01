@@ -14,6 +14,8 @@
         { year: '', ko: '단편 애니메이션 <지구탕> 각본·연출 · 지구영상제 수상', en: "Short animation 'Earth Bathhouse' — writer/director · Earth Film Festival award" },
         { year: '2021', ko: '<수묵화> 각본·연출 · 051영화제 우수상', en: "'Ink Painting' — writer/director · 051 Film Festival Excellence Award" },
         { year: '', ko: '<안녕, 할아버지> 조연출 (김재식 감독)', en: "'Goodbye, Grandpa' — assistant director (dir. Kim Jae-sik)" },
+        { year: '', ko: '<박문수 씨의 기일> 동시녹음 (이아진 감독)', en: "'Mr. Park’s Memorial Day' — location sound (dir. Lee A-jin)" },
+        { year: '', ko: '<희비> 붐 오퍼레이터 (이나래 감독)', en: "'Joy and Sorrow' — boom operator (dir. Lee Na-rae)" },
         { year: '2019', ko: '단편영화 <SMS> 각본·연출', en: "Short film 'SMS' — writer/director" }
     ];
 </script>
