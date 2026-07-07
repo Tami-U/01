@@ -14,7 +14,7 @@
         },
         en: {
             name: 'TAMI PARK',
-            tagline: 'A film director who completes an entire film alone',
+            tagline: 'A filmmaker who takes a film from A to Z — single-handedly.',
             desc: '',
             game: 'Game Blog',
             film: 'Film Blog',
