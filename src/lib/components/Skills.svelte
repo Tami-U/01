@@ -1,11 +1,10 @@
 <script>
     import { Badge } from "$lib/components/ui/badge/index.js";
     import { i18n } from '$lib/i18n.svelte.js';
-    import { siNotion, siFigma, siUnrealengine, siCplusplus, siC } from 'simple-icons';
+    import { siFigma, siUnrealengine, siCplusplus, siC } from 'simple-icons';
 
     // 브랜드 로고가 있는 건 SVG, 없는 건(어도비/애플 계열) 레터 배지로 표시
     const designChips = [
-        { icon: siNotion, color: '#111111', ko: 'Notion', en: 'Notion' },
         { icon: siFigma, ko: 'Figma', en: 'Figma' },
         { badge: 'Ps', bg: '#001E36', fg: '#31A8FF', ko: '포토샵', en: 'Photoshop' },
         { badge: 'Ai', bg: '#330000', fg: '#FF9A00', ko: '일러스트', en: 'Illustrator' },
@@ -24,7 +23,7 @@
             advanced: '고급',
             intermediate: '중급',
             designTitle: '디자인',
-            designNote: 'GTQ 1급 보유 · 협업/디자인/편집 툴',
+            designNote: 'GTQ 1급 보유 · 디자인/영상 편집 툴',
             devTitle: '프로그래밍',
             devNote: '블루프린트 게임개발 · 로딩→오픈레벨→세이브/로드 · 데이터테이블 관리 · C/C++ 코드 읽기 가능',
             aiTitle: 'AI 크리에이티브',
@@ -42,7 +41,7 @@
             advanced: 'Advanced',
             intermediate: 'Intermediate',
             designTitle: 'Design',
-            designNote: 'GTQ Level 1 certified · collaboration/design/editing tools',
+            designNote: 'GTQ Level 1 certified · design & video editing tools',
             devTitle: 'Programming',
             devNote: 'Blueprint game development · loading→open level→save/load · data table management · can read C/C++',
             aiTitle: 'Creative AI Works',
