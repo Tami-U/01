@@ -5,6 +5,7 @@
 
     const t = $derived({
         ko: {
+            name: '박타미',
             tagline: '혼자서 한 편의 영화를 완성하는 영화감독',
             desc: '첫 아이디어부터 최종 배포까지, 한 손으로.',
             game: '게임 블로그',
@@ -12,6 +13,7 @@
             brunch: '브런치'
         },
         en: {
+            name: 'TAMI PARK',
             tagline: 'A film director who completes an entire film alone',
             desc: '',
             game: 'Game Blog',
@@ -24,7 +26,7 @@
 <section class="px-margin-mobile md:px-margin-desktop py-section-gap grid grid-cols-1 md:grid-cols-2 gap-gutter items-center" id="intro">
     <div class="flex flex-col gap-6">
         <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-charcoal-brown">
-            박타미
+            {t.name}
         </h1>
         <p class="font-headline-md text-headline-md text-deep-wine">
             {t.tagline}

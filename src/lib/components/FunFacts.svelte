@@ -11,7 +11,7 @@
             blogSub: '(누적 136,795)'
         },
         en: {
-            singing: 'Karaoke stage, 27th Busan Int’l Film Festival',
+            singing: 'Karaoke stage, 27th Busan International Film Festival',
             narration: 'Film trailer narration',
             narrationSub: "(‘Isongdo Blues’)",
             desert: 'A night under the stars, Jaisalmer desert',

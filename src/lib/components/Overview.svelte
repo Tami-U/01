@@ -21,15 +21,15 @@
         },
         en: {
             heading: 'At a Glance',
-            nowTitle: 'Now, 2026~',
+            nowTitle: '2026 ~ Now',
             now: [
-                { icon: 'co_present', text: 'Guest lecturer, AI Media Dept., Kyungsung University' },
-                { icon: 'music_note', text: 'Documentary music director (dir. Tak Ki-young)' },
+                { icon: 'co_present', text: 'Guest lecturer, AI Media Department, Kyungsung University' },
+                { icon: 'music_note', text: 'Documentary music director (directed by Tak Ki-young)' },
                 { icon: 'sports_esports', text: 'Game UI · video · feature development' }
             ],
             aboutTitle: 'A little about me',
             about: [
-                { icon: 'edit_document', text: 'Consistent blogging' },
+                { icon: 'edit_document', text: 'Blogger' },
                 { icon: 'translate', text: 'J-POP & Japanese study' },
                 { icon: 'interests', text: 'Games · music · anime' },
                 { icon: 'diversity_3', text: 'All-rounder: writing · art · editing · sound' },
