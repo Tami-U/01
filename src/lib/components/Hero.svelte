@@ -14,7 +14,7 @@
         },
         en: {
             name: 'TAMI PARK',
-            tagline: 'A filmmaker who takes a film from A to Z — single-handedly.',
+            tagline: 'A filmmaker who takes a film from A to Z.',
             desc: '',
             game: 'Game Blog',
             film: 'Film Blog',
