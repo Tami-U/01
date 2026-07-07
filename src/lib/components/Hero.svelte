@@ -9,10 +9,10 @@
             박타미
         </h1>
         <p class="font-headline-md text-headline-md text-deep-wine">
-            영화감독 · AI 영상 크리에이터
+            혼자서 한 편의 영화를 완성하는 영화감독
         </p>
         <p class="font-body-lg text-body-lg text-dark-taupe max-w-lg mt-4">
-            기술과 서사를 결합하여 새로운 시각적 경험을 만드는 제작자입니다.
+            첫 아이디어부터 최종 배포까지, 한 손으로.
         </p>
         <div class="mt-8 flex flex-col items-start gap-4">
             <Button variant="ghost" class="font-body-md text-body-md text-charcoal-brown flex items-center gap-2 hover:text-deep-wine hover:bg-transparent transition-colors px-0 w-fit" href="mailto:tamiwriter@naver.com">

@@ -12,10 +12,14 @@
             </li>
             <li class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 pb-6 border-b border-outline-variant/50">
                 <span class="font-label-caps text-label-caps text-deep-wine shrink-0 w-24">2022</span>
+                <span class="font-headline-md text-headline-md text-charcoal-brown">한국건강관리협회 홍보영상 PD (헬로우 티비 광고제작)</span>
+            </li>
+            <li class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 pb-6 border-b border-outline-variant/50">
+                <span class="font-label-caps text-label-caps text-deep-wine shrink-0 w-24"></span>
                 <span class="font-headline-md text-headline-md text-charcoal-brown">부산국제영화제 영화만들기 프로젝트 보조강사</span>
             </li>
             <li class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 pb-6 border-b border-outline-variant/50">
-                <span class="font-label-caps text-label-caps text-deep-wine shrink-0 w-24">2022</span>
+                <span class="font-label-caps text-label-caps text-deep-wine shrink-0 w-24"></span>
                 <span class="font-headline-md text-headline-md text-charcoal-brown">영화의전당 영화제작교실 보조강사</span>
             </li>
             <li class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-6 pb-6 border-b border-outline-variant/50">

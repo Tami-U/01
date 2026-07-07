@@ -32,8 +32,8 @@
                 <Badge variant="default" class="font-label-caps text-label-caps rounded-full px-3 py-1 bg-primary-fixed text-deep-wine hover:bg-primary-fixed/80">고급</Badge>
             </div>
             <p class="font-body-md text-body-md text-dark-taupe leading-relaxed mb-6">
-                ChatGPT 프롬프트, 미드저니 UI, Suno BGM 설계 및 에셋 제작, AI 영상 제작
-                · <a href="https://my-question-cards.vercel.app/" target="_blank" rel="noopener" class="text-deep-wine font-semibold hover:underline">바이브 코딩 · Aida 질문카드 ↗</a>
+                AI 영상 제작, 클로드 MCP 연동 게임 제작, 바이브 코딩
+                · <a href="https://my-question-cards.vercel.app/" target="_blank" rel="noopener" class="text-deep-wine font-semibold hover:underline">Aida 질문카드 ↗</a>
             </p>
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <a href="https://www.instagram.com/reel/DZ0Bs4wBK6r/" target="_blank" rel="noopener" class="group aspect-video bg-charcoal-brown rounded overflow-hidden relative block">
@@ -55,10 +55,13 @@
             <div class="md:w-1/3 text-center md:text-left border-b md:border-b-0 md:border-r border-outline-variant pb-4 md:pb-0 md:pr-8">
                 <h3 class="font-headline-md text-headline-md text-charcoal-brown">마케팅</h3>
             </div>
-            <div class="md:w-2/3">
+            <div class="md:w-2/3 flex flex-col items-center md:items-start gap-3">
                 <p class="font-body-md text-body-md text-dark-taupe text-center md:text-left text-lg">
                     브랜딩, 스토리텔링, 콘텐츠 기획·제작
                 </p>
+                <a href="https://www.instagram.com/ffall_magazine/" target="_blank" rel="noopener" class="inline-flex items-center gap-1 font-label-caps text-label-caps text-deep-wine hover:underline">
+                    Ffall 매거진 ↗
+                </a>
             </div>
         </div>
     </div>
