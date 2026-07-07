@@ -4,7 +4,7 @@
             박타미 TAMI PARK
         </div>
         <div class="font-body-md text-body-md text-dark-taupe dark:text-on-tertiary-container">
-            © 2025 TAMI PARK. All rights reserved.
+            © 2026 TAMI PARK. All rights reserved.
         </div>
     </div>
     <div class="flex gap-6">
